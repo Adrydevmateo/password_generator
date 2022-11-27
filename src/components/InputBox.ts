@@ -11,5 +11,8 @@ passIndicator.setAttribute("class", "pass-indicator");
 
 spanElement.innerText = "copy_all";
 
+inputBox.appendChild(inputElement);
+inputBox.appendChild(spanElement);
+
 export const InputBox: HTMLElement = inputBox;
 export const PassIndicator: HTMLElement = passIndicator;

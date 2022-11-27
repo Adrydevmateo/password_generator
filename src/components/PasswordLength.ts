@@ -1,10 +1,10 @@
-const passLength: HTMLElement = document.createElement("section");
+const passwordLength: HTMLElement = document.createElement("section");
 const detailsElement: HTMLElement = document.createElement("section");
 const labelElement: HTMLElement = document.createElement("section");
 const spanElement: HTMLSpanElement = document.createElement("span");
 const inputElement: HTMLInputElement = document.createElement("input");
 
-passLength.setAttribute("class", "pass-length");
+passwordLength.setAttribute("class", "pass-length");
 detailsElement.setAttribute("class", "details");
 labelElement.setAttribute("class", "title");
 inputElement.setAttribute("type", "range");
@@ -15,9 +15,9 @@ inputElement.setAttribute("step", "1");
 
 labelElement.innerText = "Password Length";
 
-passLength.appendChild(detailsElement);
-passLength.appendChild(inputElement);
+passwordLength.appendChild(detailsElement);
+passwordLength.appendChild(inputElement);
 detailsElement.appendChild(labelElement);
 detailsElement.appendChild(spanElement);
 
-export const PassLength: HTMLElement = passLength;
+export const PasswordLength: HTMLElement = passwordLength;

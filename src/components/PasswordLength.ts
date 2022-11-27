@@ -1,6 +1,6 @@
 const passwordLength: HTMLElement = document.createElement("section");
 const detailsElement: HTMLElement = document.createElement("section");
-const labelElement: HTMLElement = document.createElement("section");
+const labelElement: HTMLLabelElement = document.createElement("label");
 const spanElement: HTMLSpanElement = document.createElement("span");
 const inputElement: HTMLInputElement = document.createElement("input");
 

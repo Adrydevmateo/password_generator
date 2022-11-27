@@ -4,6 +4,7 @@ const passwordSettings: HTMLElement = document.createElement("section");
 const labelElement: HTMLLabelElement = document.createElement("label");
 const ulElement: HTMLUListElement = document.createElement("ul");
 
+passwordSettings.setAttribute("class", "pass-settings");
 labelElement.setAttribute("class", "title");
 ulElement.setAttribute("class", "options");
 

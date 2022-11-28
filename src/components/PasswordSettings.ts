@@ -12,6 +12,7 @@ labelElement.innerText = "Password Settings";
 
 passwordSettings.appendChild(labelElement);
 passwordSettings.appendChild(ulElement);
+
 ulElement.appendChild(
   CreateLiELement("checkbox", "lowercase", true, "lowercase", "Lowercase (a-z)")
 );
@@ -49,3 +50,4 @@ ulElement.appendChild(
 );
 
 export const PasswordSettings: HTMLElement = passwordSettings;
+export const options: NodeListOf<ChildNode> = ulElement.childNodes;

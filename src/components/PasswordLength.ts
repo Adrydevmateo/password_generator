@@ -21,3 +21,4 @@ detailsElement.appendChild(labelElement);
 detailsElement.appendChild(spanElement);
 
 export const PasswordLength: HTMLElement = passwordLength;
+export const lengthSlider: HTMLInputElement = inputElement;

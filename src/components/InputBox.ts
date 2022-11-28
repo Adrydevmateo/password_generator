@@ -13,3 +13,5 @@ inputBox.appendChild(inputElement);
 inputBox.appendChild(spanElement);
 
 export const InputBox: HTMLElement = inputBox;
+export const passwordInput: HTMLInputElement = inputElement;
+export const copyIcon: HTMLSpanElement = spanElement;

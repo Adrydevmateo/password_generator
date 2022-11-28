@@ -9,6 +9,7 @@ export function CreateLiELement(
   const newInputELement: HTMLInputElement = document.createElement("input");
   const newLabelElement: HTMLLabelElement = document.createElement("label");
 
+  newLiElement.setAttribute("class", "option");
   newInputELement.setAttribute("type", inputType);
   newInputELement.setAttribute("id", inputId);
   newLabelElement.setAttribute("for", labelFor);

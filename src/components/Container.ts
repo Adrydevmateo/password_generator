@@ -6,6 +6,7 @@ const containerElement: HTMLElement = document.createElement("section");
 const passwordIndicator: HTMLElement = document.createElement("section");
 const buttonGenerate: HTMLButtonElement = document.createElement("button");
 
+containerElement.setAttribute("class", "container");
 passwordIndicator.setAttribute("class", "pass-indicator");
 buttonGenerate.setAttribute("class", "generate-btn");
 

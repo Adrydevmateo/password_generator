@@ -1,4 +1,4 @@
-<!-- ![Preview](public\preview.png). -->
+![Preview](public\preview.png).
 
 # Password Generator
 

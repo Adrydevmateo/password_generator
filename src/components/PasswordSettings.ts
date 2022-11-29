@@ -4,6 +4,8 @@ const passwordSettings: HTMLElement = document.createElement("section");
 const labelElement: HTMLLabelElement = document.createElement("label");
 const ulElement: HTMLUListElement = document.createElement("ul");
 
+let arrayOfOptions: Array<ChildNode> | any = [];
+
 passwordSettings.setAttribute("class", "pass-settings");
 labelElement.setAttribute("class", "title");
 ulElement.setAttribute("class", "options");
@@ -49,5 +51,9 @@ ulElement.appendChild(
   CreateLiELement("checkbox", "spaces", false, "spaces", "Include Spaces")
 );
 
+ulElement.childNodes.forEach((option) => {
+  arrayOfOptions.push(option.firstChild);
+});
+
 export const PasswordSettings: HTMLElement = passwordSettings;
-export const options: NodeListOf<ChildNode> = ulElement.childNodes;
+export const options: Array<ChildNode> | any = arrayOfOptions;

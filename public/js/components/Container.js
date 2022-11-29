@@ -1,0 +1,18 @@
+import { InputBox } from "./InputBox";
+import { PasswordLength } from "./PasswordLength";
+import { PasswordSettings } from "./PasswordSettings";
+const containerElement = document.createElement("section");
+const passwordIndicator = document.createElement("section");
+const buttonGenerate = document.createElement("button");
+containerElement.setAttribute("class", "container");
+passwordIndicator.setAttribute("class", "pass-indicator");
+buttonGenerate.setAttribute("class", "generate-btn");
+buttonGenerate.innerText = "Generate Password";
+containerElement.appendChild(InputBox);
+containerElement.appendChild(passwordIndicator);
+containerElement.appendChild(PasswordLength);
+containerElement.appendChild(PasswordSettings);
+containerElement.appendChild(buttonGenerate);
+export const Container = containerElement;
+export const passIndicator = passwordIndicator;
+export const generateBtn = buttonGenerate;

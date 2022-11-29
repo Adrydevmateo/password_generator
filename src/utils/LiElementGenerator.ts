@@ -1,3 +1,12 @@
+/**
+ * * Function to Create Li Elements
+ * @param inputType
+ * @param inputId
+ * @param inputIsChecked
+ * @param labelFor
+ * @param labelInnerText
+ * @returns a new list item html element
+ */
 export function CreateLiELement(
   inputType: string,
   inputId: string,

@@ -19,3 +19,5 @@ containerElement.appendChild(PasswordSettings);
 containerElement.appendChild(buttonGenerate);
 
 export const Container: HTMLElement = containerElement;
+export const passIndicator: HTMLElement = passwordIndicator;
+export const generateBtn: HTMLButtonElement = buttonGenerate;
